@@ -1,0 +1,629 @@
+body{
+    margin: 0;
+}
+.header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(50, 90, 50);
+}
+.menue i{
+    width: 50px;
+}
+.logo img{
+    width: 105px;
+    position: relative;
+    left: 10rem;
+}
+.link{
+    display: flex;
+    gap: 2rem;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    padding: 0 5px;
+    margin: 0 5px;
+    position: relative;
+}
+.link a::after{
+    content: "";
+    background-color: rgb(15, 63, 15);
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 1px;
+    position: absolute;
+    transition: 0.3s;
+}
+.link a:hover::after{
+    width: 100%;
+}
+.link a:hover{
+    color: rgb(8, 128, 8);
+}
+.download img{
+    width: 15px;
+    position: relative;
+    right: 2px;
+}
+.download button{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:  rgb(50, 90, 50);
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+}
+.hero{
+    background-color: rgb(5, 62, 16);
+    padding: 80px;
+}
+.hero h2{
+    font-size: 40px;
+    color: white;
+
+}
+.hero h1{
+    font-size: 60px;
+    position: relative;
+    bottom: 2rem;
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+.hero small{
+    position: relative;
+    bottom: 4rem;
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+.start button{
+    position: relative;
+    bottom: 8rem;
+    left: 4.5rem;
+    padding: 7px;
+    border-radius: 15px;
+    border: 2px solid rgb(3, 1, 1);
+    background-color: black;
+    color: white;
+}
+.dot img{
+    position: relative;
+    width: 10px;
+    bottom: 9.5rem;
+    left: 15rem;
+}
+.dot span{
+    position: relative;
+    width: 10px;
+    bottom: 9.5rem;
+    left: 15rem;
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+.images img{
+    position: relative;
+    bottom: 29.5rem;
+    width: 420px;
+    left: 650px;
+    height: 420px;
+}
+.padding{
+    padding: 60px;
+    background-color: rgb(255, 254, 252);
+    width: 9px;
+    position: relative;
+    bottom: 45rem;
+    left: 37rem;
+    border-radius: 30px;
+    height: 15px;
+}
+.padding span{
+    position: relative;
+    bottom: 3rem;
+    font-size: 40px;
+    font-weight: 700;
+    right: 2rem;
+    font-family: "Anton", sans-serif;
+}
+.padding p{
+    position: relative;
+    bottom: 4.4rem;
+    font-size: 15px;
+    font-weight: 700;
+    right: 1.5rem;
+    font-family: "Anton", sans-serif;
+}
+.home{
+    position: relative;
+    bottom: 33rem;
+    padding: 20px 5%;
+
+}
+.home h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+    position: relative;
+    bottom: 5rem;
+}
+.home span{
+    color: rgb(51, 52, 53);
+    font-weight: 100;
+    font-family: "Anton", sans-serif;
+    position: relative;
+    bottom: 4rem;
+    right: 0.1rem;
+}
+.click{
+    position: relative;
+    bottom: 27rem;
+    left: 50px;
+}
+.click img{
+    position: relative;
+    width: 15px;
+    right: 3px;
+}
+.click button{
+    padding: 7px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid black;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+}
+.click button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.logos img{
+    position: relative;
+    bottom: 28.5rem;
+    width: 80px;
+    left: 15rem;
+}
+.box{
+    padding: 17px;
+    background-color: rgb(251, 250, 250);
+    width: 490px;
+    position: relative;
+    bottom: 23rem;
+    left: 22px;
+    border-radius: 30px;
+    height: 25px;
+    border: 2px solid black;
+    font-weight: 700;
+} 
+.box span{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    font-family: "Anton", sans-serif;
+}
+.box p{
+    position: relative;
+    left: 10rem;
+    bottom: 1.8rem;
+    font-family: "Anton", sans-serif;
+}
+.third{
+    padding: 17px;
+    width: 490px;
+    position: relative;
+    bottom: 23rem;
+    left: 22px;
+    height: 25px;
+    font-weight: 700;
+} 
+.third span{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    font-family: "Anton", sans-serif;
+}
+.third p{
+    position: relative;
+    left: 10rem;
+    bottom: 1.8rem;
+    font-family: "Anton", sans-serif;   
+}
+.forth{
+    padding: 17px;
+    background-color: rgb(251, 250, 250);
+    width: 490px;
+    position: relative;
+    bottom: 23rem;
+    left: 22px;
+    border-radius: 30px;
+    height: 25px;
+    border: 2px solid black;
+    font-weight: 700;
+} 
+.forth span{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    font-family: "Anton", sans-serif;
+}
+.forth p{
+    position: relative;
+    left: 10rem;
+    bottom: 1.8rem;
+    font-family: "Anton", sans-serif;
+}
+.email{
+    padding: 17px;
+    width: 490px;
+    position: relative;
+    bottom: 23rem;
+    left: 22px;
+    height: 25px;
+    font-weight: 700;
+} 
+.email span{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    font-family: "Anton", sans-serif;
+}
+.email p{
+    position: relative;
+    left: 10rem;
+    bottom: 1.8rem;
+    font-family: "Anton", sans-serif;
+}
+.phone{
+    padding: 17px;
+    background-color: rgb(251, 250, 250);
+    width: 490px;
+    position: relative;
+    bottom: 23rem;
+    left: 22px;
+    border-radius: 30px;
+    height: 25px;
+    border: 2px solid black;
+    font-weight: 700;
+} 
+.phone span{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    font-family: "Anton", sans-serif;
+}
+.phone p{
+    position: relative;
+    left: 10rem;
+    bottom: 1.8rem;
+    font-family: "Anton", sans-serif;
+}
+.free{
+    padding: 17px;
+    width: 490px;
+    position: relative;
+    bottom: 23rem;
+    left: 22px;
+    height: 25px;
+    font-weight: 700;
+} 
+.free span{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    font-family: "Anton", sans-serif;
+}
+.free p{
+    position: relative;
+    left: 10rem;
+    bottom: 1.8rem;
+    font-family: "Anton", sans-serif;
+}
+.body small{
+    position: relative;
+    bottom: 70.6rem;
+    left: 45rem;
+    font-family: "Anton", sans-serif;
+    color: rgba(97, 25, 3, 0.846);
+}
+.karmon img{
+    position: relative;
+    bottom: 70rem;
+    width: 280px;
+    left: 47rem;
+}
+.icon img{
+    width: 200px;
+    position: relative;
+    bottom: 60rem;
+    left: 45rem;
+}
+.boxes img{
+    width: 200px;
+    position: relative;
+    bottom: 68rem;
+    left: 45rem;
+}
+.now img{
+    width: 200px;
+    position: relative;
+    bottom: 97rem;
+    left: 60rem;
+}
+.final img{
+    width: 200px;
+    position: relative;
+    bottom: 105rem;
+    left: 60rem;
+}
+.icon h2{
+    position: relative;
+    bottom: 70rem;
+    left: 48.5rem;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+}
+.icon span{
+    position: relative;
+    bottom: 72rem;
+    left: 48rem;
+    font-size: 17px;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+}
+.boxes h2{
+    position: relative;
+    bottom: 88.5rem;
+    left: 63.5rem;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+}
+.boxes span{
+    position: relative;
+    bottom: 90.5rem;
+    left: 62.7rem;
+    font-size: 17px;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+}
+.now h2{
+    position: relative;
+    bottom: 96rem;
+    left: 48.5rem;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+}
+.now span{
+    position: relative;
+    bottom: 98rem;
+    left: 48rem;
+    font-size: 17px;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+}
+.final h2{
+    position: relative;
+    bottom: 114.5rem;
+    left: 63.5rem;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+}
+.final span{
+    position: relative;
+    bottom: 116.5rem;
+    left: 63rem;
+    font-size: 17px;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+}
+.angle img{
+    position: relative;
+    width: 450px;
+    bottom: 135rem;
+    left: 47rem;
+}
+.bar{
+    position: relative;
+    right: 9rem;
+    cursor: pointer;
+}
+.bar img{
+    width: 1rem;
+}
+.xmax{
+    position: relative;
+    right: 7rem;
+    cursor: pointer;
+}
+.xmax img{
+    width: 1rem;
+}
+@media only screen and (max-width: 480px){{
+}{
+}
+.header .nav{
+    height: 50px;
+}   
+.logo {
+    position: relative;
+    right: 11rem;
+    top: 5rem;
+}
+.link{
+    position: relative;
+    right: 7rem;
+    top: 34rem;
+    display: flex;
+    gap: 0rem;
+    display: none;
+}
+.dot{
+    position: relative;
+    top: 2rem;
+    right: 10.5rem;
+}
+.download{
+    position: relative;
+    right: rem;
+    top: 5rem;
+}
+.download button{
+    width: 150px;
+}
+.home{
+    position: relative;
+    bottom: 10rem;
+}
+.home span{
+    bottom: 6rem;
+    position: relative;
+}
+.click{
+    position: relative;
+    bottom: 15rem;
+    left: 1rem;
+}
+.logos img{
+    position: relative;
+    bottom: 16.9rem;
+    right: 10rem;
+}
+.images img{
+    position: relative;
+    left: 0.1rem;
+    width: 385px;
+    height: 24rem;
+    bottom: 3rem;
+}
+.padding{
+    position: relative;
+    left: 15rem;
+    bottom: 10rem;
+}
+.box{
+    position: relative;
+    bottom: 15rem;
+    left: 0.1rem;
+    width: 350px;
+}
+.third{
+    position: relative;
+    bottom: 15rem;
+    left: 0.1rem;
+}
+.forth{
+    position: relative;
+    bottom: 15rem;
+    left: 0.1rem;
+    width: 350px;
+}
+.email{
+    position: relative;
+    bottom: 15rem;
+    left: 0.1rem;
+}
+.phone{
+    position: relative;
+    bottom: 15rem;
+    left: 0.1rem;
+    width: 350px;
+}
+.free{
+    position: relative;
+    bottom: 15rem;
+    left: 0.1rem;
+}
+.body{
+    position: relative;
+    right: 44rem;
+    top: 57rem;
+}
+.icon{
+    position: relative;
+    right: 1rem;
+}
+.boxes{
+    position: relative;
+    right: 1rem;
+}
+.now {
+    position: relative;
+    right: 3.5rem;
+}
+.final{
+    position: relative;
+    right: 3.5rem;
+}
+.angle img{
+    width: 360px;
+    position: relative;
+    bottom: 132.5rem;
+}
+.now h2{
+    position: relative;
+    left: 51rem;
+}
+.now span{
+    position: relative;
+    left: 51rem;
+}
+.boxes h2{
+    position: relative;
+    left: 60.5rem;
+    
+}
+.boxes span{
+    position: relative;
+    left: 60.5rem;
+}
+.icon h2{
+    position: relative;
+    left: 47.5rem;
+    bottom: 70.6rem;
+}
+.icon span{
+    position: relative;
+    bottom: 72.8rem;
+    left: 47.5rem;
+}
+.icon img{
+    width: 180px;
+    position: relative;
+    bottom: 61.8rem;
+}
+.boxes img{
+    width: 180px;
+    position: relative;
+    bottom: 69.9rem;
+}
+.now img{
+    width: 180px;
+    position: relative;
+}
+.now h2{
+    position: relative;
+    bottom: 96.5rem;
+    left: 50rem;
+}
+.now span{
+    position: relative;
+    bottom: 98.7rem;
+    left: 50rem;
+}
+.final img{
+    width: 180px;
+    position: relative;
+}
+.final h2{
+    position: relative;
+    left: 63rem;
+}
+.xmax{
+    position: relative;
+    left: 0rem;
+}
+
+   
